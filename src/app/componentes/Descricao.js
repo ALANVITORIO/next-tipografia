@@ -44,7 +44,7 @@ export default function Descricao() {
           <ul className="list-unstyled">
             <li className="pt-2">
               <i class="bi bi-tv"></i> As fontes display são fontes grandes e
-              decorativas.
+              decorativas, com muita personalidade.
             </li>
             <li className="pt-2">
               <i class="bi bi-tv"></i> Geralmente usadas para chamar a atenção.

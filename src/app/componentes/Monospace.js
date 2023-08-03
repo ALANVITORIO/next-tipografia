@@ -6,10 +6,9 @@ const fonts = {
   serif: ['Playfair Display', 'Roboto Slab', 'Merriweather'],
   sansSerif: ['Open Sans', 'Roboto', 'Lato'],
   monospace: ['Fira Code', 'Roboto Mono', 'Source Code Pro'],
-  display: ['Lobster', 'Pacifico', 'Bangers'],
 };
 
-export default function Display() {
+export default function Monospace() {
   const [inputValue, setInputValue] = useState('');
 
   const handleInputChange = (e) => {
@@ -18,8 +17,8 @@ export default function Display() {
 
   return (
     <div className="container mt-5">
-      <h1>Fontes Display</h1>
-      {fonts.display.map((font, index) => (
+      <h1>Fontes Bônus monospace</h1>
+      {fonts.monospace.map((font, index) => (
         <div key={index}>
           <h2 style={{ fontFamily: font }}>{font}</h2>
           <input
