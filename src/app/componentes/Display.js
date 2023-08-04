@@ -17,13 +17,13 @@ export default function Display() {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 box-shadow p-5">
       <h1>Fontes Display</h1>
       {fonts.display.map((font, index) => (
         <div key={index}>
           <h2 style={{ fontFamily: font }}>{font}</h2>
-          <input
-            type="text"
+          <textarea
+            rows="3"
             className="form-control"
             value={inputValue}
             style={{ fontFamily: font }}

@@ -55,6 +55,9 @@ export default function Descricao() {
           </ul>
         </div>
       </div>
+      <h1 className="mt-5 text-center">
+        Aqui embaixo você pode testar as fontes
+      </h1>
     </section>
   );
 }

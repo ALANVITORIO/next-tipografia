@@ -6,6 +6,7 @@ import SemSerifas from './componentes/SemSerifas';
 
 import Monospace from './componentes/Monospace';
 import Display from './componentes/Display';
+import Footer from './footer';
 
 export default function Page() {
   return (
@@ -17,6 +18,7 @@ export default function Page() {
       <SemSerifas />
       <Display />
       <Monospace />
+      <Footer />
     </>
   );
 }
